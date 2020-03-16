@@ -1,32 +1,4 @@
 {
-	"tags": [{
-		"tag": "basic"
-	}, {
-		"tag": "x"
-	}, {
-		"tag": "y"
-	}],
-	"login": {
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
-	},
-	"user": {
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
-	},
-	"users": {
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
-	},
 	"quizzes": [{
 		"id": 123,
 		"title": "x quiz",
