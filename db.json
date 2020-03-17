@@ -8,10 +8,17 @@
 				"description": "Test your basic product x knowledge",
 				"subject": "Product x",
 				"audiance": "engineers",
+				"createdAt": "2016-02-18T03:22:56.637Z",
+				"updatedAt": "2016-02-18T03:48:35.824Z",
 				"tagList": ["basic", "x"],
-				"author": [{
-					"username": "test"
-				}],
+				"favorited": false,
+				"favoritesCount": 0,
+				"author": {
+					"username": "test",
+					"bio": "Test user api",
+					"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+					"following": false
+				},
 				"settings": {
 					"final": "t",
 					"maxSecondsPerQuestion": "5",
@@ -61,10 +68,17 @@
 				"description": "Test your basic product y knowledge",
 				"subject": "Product y",
 				"audiance": "engineers",
+				"createdAt": "2016-02-18T03:22:56.637Z",
+				"updatedAt": "2016-02-18T03:48:35.824Z",
 				"tagList": ["basic", "y"],
-				"author": [{
-					"username": "test"
-				}],
+				"favorited": false,
+				"favoritesCount": 0,
+				"author": {
+					"username": "test",
+					"bio": "Test user api",
+					"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+					"following": false
+				},
 				"settings": {
 					"final": "t",
 					"maxSecondsPerQuestion": "5",
@@ -109,5 +123,17 @@
 				]
 			}
 		]
-	}
+	},
+	"tests": [{
+		"id": 1,
+		"createdAt": "2016-02-18T03:22:56.637Z",
+		"updatedAt": "2016-02-18T03:22:56.637Z",
+		"result": ["a", "b", "18"],
+		"author": {
+			"username": "test",
+			"bio": "Test user api",
+			"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+			"following": false
+		}
+	}]
 }
