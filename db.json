@@ -27,7 +27,7 @@
 					"allowGoBack": "f",
 					"randomizeQuestions": "t",
 					"randomizeAnswers": "t",
-					"minimumToPass": "60"
+					"minimumPercentToPass": "60"
 				},
 				"questions": [{
 						"text": "Is product x hosted by a third party outside ING?",
@@ -87,7 +87,7 @@
 					"allowGoBack": "f",
 					"randomizeQuestions": "t",
 					"randomizeAnswers": "t",
-					"minimumToPass": "60"
+					"minimumPercentToPass": "60"
 				},
 				"questions": [{
 						"text": "Is product y hosted by a third party outside ING?",
