@@ -1,6 +1,130 @@
 {
 	"tags": ["basic", "x", "y"],
-	"quizzes": [{
+	"quizzes": {
+		"quizzes": [{
+				"id": "123",
+				"title": "x quiz",
+				"description": "Test your basic product x knowledge",
+				"subject": "Product x",
+				"audiance": "engineers",
+				"createdAt": "2016-02-18T03:22:56.637Z",
+				"updatedAt": "2016-02-18T03:48:35.824Z",
+				"tagList": ["basic", "x"],
+				"favorited": false,
+				"favoritesCount": 0,
+				"author": {
+					"username": "test",
+					"bio": "Test user api",
+					"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+					"following": false
+				},
+				"settings": {
+					"final": "t",
+					"maxSecondsPerQuestion": "5",
+					"numberOfHints": "2",
+					"allowExit": "f",
+					"allowGoBack": "f",
+					"randomizeQuestions": "t",
+					"randomizeAnswers": "t",
+					"minimumPercentToPass": "60"
+				},
+				"questions": [{
+						"text": "Is product x hosted by a third party outside ING?",
+						"category": "trueFalse",
+						"answer": "t",
+						"explanation": "Product x is being administrated at a third party located in y"
+					},
+					{
+						"text": "Which product variant of product x has the beste features?",
+						"category": "multiChoice",
+						"choices": [{
+								"label": "Variant a",
+								"value": "a"
+							},
+							{
+								"label": "Variant b",
+								"value": "b"
+							},
+							{
+								"label": "Variant c",
+								"value": "c"
+							}
+						],
+						"answer": "c",
+						"explanation": "Variant c has in total z features more then the other variants"
+					},
+					{
+						"text": "What is the minimum age to apply for porduct x?",
+						"category": "numerical",
+						"answer": "18",
+						"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
+					}
+				]
+			},
+			{
+				"id": "456",
+				"title": "y quiz",
+				"description": "Test your basic product y knowledge",
+				"subject": "Product y",
+				"audiance": "engineers",
+				"createdAt": "2016-02-18T03:22:56.637Z",
+				"updatedAt": "2016-02-18T03:48:35.824Z",
+				"tagList": ["basic", "y"],
+				"favorited": false,
+				"favoritesCount": 0,
+				"author": {
+					"username": "test",
+					"bio": "Test user api",
+					"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+					"following": false
+				},
+				"settings": {
+					"final": "t",
+					"maxSecondsPerQuestion": "5",
+					"numberOfHints": "2",
+					"allowExit": "f",
+					"allowGoBack": "f",
+					"randomizeQuestions": "t",
+					"randomizeAnswers": "t",
+					"minimumPercentToPass": "60"
+				},
+				"questions": [{
+						"text": "Is product y hosted by a third party outside ING?",
+						"category": "trueFalse",
+						"answer": "t",
+						"explanation": "Product y is being administrated at a third party located in y"
+					},
+					{
+						"text": "Which product variant of product y has the beste features?",
+						"category": "multiChoice",
+						"choices": [{
+								"label": "Variant a",
+								"value": "a"
+							},
+							{
+								"label": "Variant b",
+								"value": "b"
+							},
+							{
+								"label": "Variant c",
+								"value": "c"
+							}
+						],
+						"answer": "c",
+						"explanation": "Variant c has in total z features more then the other variants"
+					},
+					{
+						"text": "What is the minimum age to apply for porduct y?",
+						"category": "numerical",
+						"answer": "18",
+						"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
+					}
+				]
+			}
+		]
+	},
+	"quiz": {
+		"quiz": {
 			"id": "123",
 			"title": "x quiz",
 			"description": "Test your basic product x knowledge",
@@ -59,68 +183,8 @@
 					"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
 				}
 			]
-		},
-		{
-			"id": "456",
-			"title": "y quiz",
-			"description": "Test your basic product y knowledge",
-			"subject": "Product y",
-			"audiance": "engineers",
-			"createdAt": "2016-02-18T03:22:56.637Z",
-			"updatedAt": "2016-02-18T03:48:35.824Z",
-			"tagList": ["basic", "y"],
-			"favorited": false,
-			"favoritesCount": 0,
-			"author": {
-				"username": "test",
-				"bio": "Test user api",
-				"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-				"following": false
-			},
-			"settings": {
-				"final": "t",
-				"maxSecondsPerQuestion": "5",
-				"numberOfHints": "2",
-				"allowExit": "f",
-				"allowGoBack": "f",
-				"randomizeQuestions": "t",
-				"randomizeAnswers": "t",
-				"minimumPercentToPass": "60"
-			},
-			"questions": [{
-					"text": "Is product y hosted by a third party outside ING?",
-					"category": "trueFalse",
-					"answer": "t",
-					"explanation": "Product y is being administrated at a third party located in y"
-				},
-				{
-					"text": "Which product variant of product y has the beste features?",
-					"category": "multiChoice",
-					"choices": [{
-							"label": "Variant a",
-							"value": "a"
-						},
-						{
-							"label": "Variant b",
-							"value": "b"
-						},
-						{
-							"label": "Variant c",
-							"value": "c"
-						}
-					],
-					"answer": "c",
-					"explanation": "Variant c has in total z features more then the other variants"
-				},
-				{
-					"text": "What is the minimum age to apply for porduct y?",
-					"category": "numerical",
-					"answer": "18",
-					"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
-				}
-			]
 		}
-	],
+	},
 	"tests": [{
 		"id": 1,
 		"createdAt": "2016-02-18T03:22:56.637Z",
