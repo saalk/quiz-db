@@ -1,5 +1,7 @@
 {
-	"tags": ["basic", "x", "y"],
+	"tags": {
+		"tags": ["basic", "x", "y"]
+	},
 	"quizzes": {
 		"quizzes": [{
 				"id": "123",
