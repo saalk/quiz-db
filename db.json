@@ -3,6 +3,7 @@
 		"tags": ["basic", "x", "y"]
 	},
 	"quizzes": {
+		"quizzesCount": 2,
 		"quizzes": [{
 				"id": "123",
 				"title": "x quiz",
