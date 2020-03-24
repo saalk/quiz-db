@@ -34,6 +34,7 @@
 				"questions": [{
 						"text": "Is product x hosted by a third party outside ING?",
 						"category": "trueFalse",
+						"choices": null,
 						"answer": "t",
 						"explanation": "Product x is being administrated at a third party located in y"
 					},
@@ -59,6 +60,7 @@
 					{
 						"text": "What is the minimum age to apply for porduct x?",
 						"category": "numerical",
+						"choices": null,
 						"answer": "18",
 						"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
 					}
@@ -94,6 +96,7 @@
 				"questions": [{
 						"text": "Is product y hosted by a third party outside ING?",
 						"category": "trueFalse",
+						"choices": null,
 						"answer": "t",
 						"explanation": "Product y is being administrated at a third party located in y"
 					},
@@ -119,6 +122,7 @@
 					{
 						"text": "What is the minimum age to apply for porduct y?",
 						"category": "numerical",
+						"choices": null,
 						"answer": "18",
 						"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
 					}
@@ -157,6 +161,7 @@
 			"questions": [{
 					"text": "Is product x hosted by a third party outside ING?",
 					"category": "trueFalse",
+					"choices": null,
 					"answer": "t",
 					"explanation": "Product x is being administrated at a third party located in y"
 				},
@@ -182,6 +187,7 @@
 				{
 					"text": "What is the minimum age to apply for porduct x?",
 					"category": "numerical",
+					"choices": null,
 					"answer": "18",
 					"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
 				}
