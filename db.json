@@ -5,7 +5,7 @@
 	"quizzes": {
 		"quizzesCount": 2,
 		"quizzes": [{
-				"id": "123",
+				"quizId": "123",
 				"title": "x quiz",
 				"description": "Test your basic product x knowledge",
 				"subject": "Product x",
@@ -16,7 +16,7 @@
 				"favorited": false,
 				"favoritesCount": 0,
 				"author": {
-					"username": "test",
+					"username": "tester",
 					"bio": "Test user api",
 					"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
 					"following": false
@@ -32,6 +32,7 @@
 					"minimumPercentToPass": "60"
 				},
 				"questions": [{
+						"questionId": "1",
 						"text": "Is product x hosted by a third party outside ING?",
 						"category": "trueFalse",
 						"choices": null,
@@ -39,6 +40,7 @@
 						"explanation": "Product x is being administrated at a third party located in y"
 					},
 					{
+						"questionId": "2",
 						"text": "Which product variant of product x has the beste features?",
 						"category": "multiChoice",
 						"choices": [{
@@ -58,6 +60,7 @@
 						"explanation": "Variant c has in total z features more then the other variants"
 					},
 					{
+						"questionId": "3",
 						"text": "What is the minimum age to apply for porduct x?",
 						"category": "numerical",
 						"choices": null,
@@ -67,7 +70,7 @@
 				]
 			},
 			{
-				"id": "456",
+				"quizId": "456",
 				"title": "y quiz",
 				"description": "Test your basic product y knowledge",
 				"subject": "Product y",
@@ -78,7 +81,7 @@
 				"favorited": false,
 				"favoritesCount": 0,
 				"author": {
-					"username": "test",
+					"username": "visitor",
 					"bio": "Test user api",
 					"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
 					"following": true
@@ -94,6 +97,7 @@
 					"minimumPercentToPass": "60"
 				},
 				"questions": [{
+						"questionId": "1",
 						"text": "Is product y hosted by a third party outside ING?",
 						"category": "trueFalse",
 						"choices": null,
@@ -101,6 +105,7 @@
 						"explanation": "Product y is being administrated at a third party located in y"
 					},
 					{
+						"questionId": "2",
 						"text": "Which product variant of product y has the beste features?",
 						"category": "multiChoice",
 						"choices": [{
@@ -120,6 +125,7 @@
 						"explanation": "Variant c has in total z features more then the other variants"
 					},
 					{
+						"questionId": "3",
 						"text": "What is the minimum age to apply for porduct y?",
 						"category": "numerical",
 						"choices": null,
@@ -132,7 +138,7 @@
 	},
 	"quiz": {
 		"quiz": {
-			"id": "123",
+			"quizId": "123",
 			"title": "x quiz",
 			"description": "Test your basic product x knowledge",
 			"subject": "Product x",
@@ -143,7 +149,7 @@
 			"favorited": true,
 			"favoritesCount": 2,
 			"author": {
-				"username": "test",
+				"username": "tester",
 				"bio": "Test user api",
 				"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
 				"following": false
@@ -159,6 +165,7 @@
 				"minimumPercentToPass": "60"
 			},
 			"questions": [{
+					"questionId": "1",
 					"text": "Is product x hosted by a third party outside ING?",
 					"category": "trueFalse",
 					"choices": null,
@@ -166,6 +173,7 @@
 					"explanation": "Product x is being administrated at a third party located in y"
 				},
 				{
+					"questionId": "2",
 					"text": "Which product variant of product x has the beste features?",
 					"category": "multiChoice",
 					"choices": [{
@@ -185,6 +193,7 @@
 					"explanation": "Variant c has in total z features more then the other variants"
 				},
 				{
+					"questionId": "3",
 					"text": "What is the minimum age to apply for porduct x?",
 					"category": "numerical",
 					"choices": null,
@@ -194,11 +203,22 @@
 			]
 		}
 	},
-	"tests": [{
+	"answers": [{
 		"id": 1,
+		"quizId": 1,
 		"createdAt": "2016-02-18T03:22:56.637Z",
 		"updatedAt": "2016-02-18T03:22:56.637Z",
-		"result": ["a", "b", "18"],
+		"questionId": "1",
+		"questions": [{
+			"questionId": "1",
+			"answer": "a"
+		}, {
+			"questionId": "2",
+			"answer": "b"
+		}, {
+			"questionId": "2",
+			"answer": "18"
+		}],
 		"author": {
 			"username": "test",
 			"bio": "Test user api",
@@ -208,7 +228,7 @@
 	}],
 	"favorite": {
 		"quiz": {
-			"id": "123",
+			"quizId": "123",
 			"title": "x quiz",
 			"description": "Test your basic product x knowledge",
 			"subject": "Product x",
@@ -219,7 +239,7 @@
 			"favorited": true,
 			"favoritesCount": 2,
 			"author": {
-				"username": "test",
+				"username": "tester",
 				"bio": "Test user api",
 				"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
 				"following": false
@@ -235,12 +255,14 @@
 				"minimumPercentToPass": "60"
 			},
 			"questions": [{
+					"questionId": "1",
 					"text": "Is product x hosted by a third party outside ING?",
 					"category": "trueFalse",
 					"answer": "t",
 					"explanation": "Product x is being administrated at a third party located in y"
 				},
 				{
+					"questionId": "2",
 					"text": "Which product variant of product x has the beste features?",
 					"category": "multiChoice",
 					"choices": [{
@@ -260,6 +282,7 @@
 					"explanation": "Variant c has in total z features more then the other variants"
 				},
 				{
+					"questionId": "3",
 					"text": "What is the minimum age to apply for porduct x?",
 					"category": "numerical",
 					"answer": "18",
