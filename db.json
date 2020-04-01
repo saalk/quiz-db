@@ -13,7 +13,7 @@
 				"createdAt": "2016-02-18T03:22:56.637Z",
 				"updatedAt": "2016-02-18T03:48:35.824Z",
 				"tagList": ["basic", "x"],
-				"favorited": false,
+				"favorited": true,
 				"favoritesCount": 0,
 				"author": {
 					"username": "tester",
