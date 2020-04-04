@@ -244,7 +244,6 @@
 		"quizId": 1,
 		"createdAt": "2016-02-18T03:22:56.637Z",
 		"updatedAt": "2016-02-18T03:22:56.637Z",
-		"questionId": "1",
 		"questions": [{
 			"questionId": "1",
 			"answer": "a"
@@ -255,9 +254,8 @@
 			"questionId": "2",
 			"answer": "18"
 		}],
-		"author": {
-			"username": "tester",
-			"following": false
+		"user": {
+			"username": "tester"
 		}
 	}],
 	"favorite": {
