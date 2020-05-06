@@ -39,7 +39,7 @@
 					"minimumPercentToPass": 60
 				},
 				"questions": [{
-						"questionId": 1,
+						"questionId": 111,
 						"text": "Is product x hosted by a third party outside ING?",
 						"category": "trueFalse",
 						"choices": null,
@@ -47,7 +47,7 @@
 						"explanation": "Product x is being administrated at a third party located in y"
 					},
 					{
-						"questionId": 2,
+						"questionId": 222,
 						"text": "Which product variant of product x has the beste features?",
 						"category": "multiChoice",
 						"choices": [{
@@ -67,7 +67,7 @@
 						"explanation": "Variant c has in total z features more then the other variants"
 					},
 					{
-						"questionId": 3,
+						"questionId": 333,
 						"text": "What is the minimum age to apply for porduct x?",
 						"category": "numerical",
 						"choices": null,
@@ -111,7 +111,7 @@
 					"minimumPercentToPass": 60
 				},
 				"questions": [{
-						"questionId": 1,
+						"questionId": 112,
 						"text": "Is product y hosted by a third party outside ING?",
 						"category": "trueFalse",
 						"choices": null,
@@ -119,7 +119,7 @@
 						"explanation": "Product y is being administrated at a third party located in y"
 					},
 					{
-						"questionId": 2,
+						"questionId": 223,
 						"text": "Which product variant of product y has the beste features?",
 						"category": "multiChoice",
 						"choices": [{
@@ -139,7 +139,7 @@
 						"explanation": "Variant c has in total z features more then the other variants"
 					},
 					{
-						"questionId": 3,
+						"questionId": 334,
 						"text": "What is the minimum age to apply for porduct y?",
 						"category": "numerical",
 						"choices": null,
@@ -183,7 +183,7 @@
 					"minimumPercentToPass": 60
 				},
 				"questions": [{
-					"questionId": 1,
+					"questionId": 1234,
 					"text": "Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor.?",
 					"category": "trueFalse",
 					"choices": null,
@@ -229,7 +229,7 @@
 				"minimumPercentToPass": 60
 			},
 			"questions": [{
-					"questionId": 1,
+					"questionId": 111,
 					"text": "Is product x hosted by a third party outside ING?",
 					"category": "trueFalse",
 					"choices": null,
@@ -237,7 +237,7 @@
 					"explanation": "Product x is being administrated at a third party located in y"
 				},
 				{
-					"questionId": "2",
+					"questionId": "222",
 					"text": "Which product variant of product x has the beste features?",
 					"category": "multiChoice",
 					"choices": [{
@@ -257,7 +257,7 @@
 					"explanation": "Variant c has in total z features more then the other variants"
 				},
 				{
-					"questionId": 3,
+					"questionId": 333,
 					"text": "What is the minimum age to apply for porduct x?",
 					"category": "numerical",
 					"choices": null,
@@ -303,7 +303,7 @@
 				"minimumPercentToPass": 60
 			},
 			"questions": [{
-					"questionId": 1,
+					"questionId": 112,
 					"text": "Is product y hosted by a third party outside ING?",
 					"category": "trueFalse",
 					"choices": null,
@@ -311,7 +311,7 @@
 					"explanation": "Product y is being administrated at a third party located in y"
 				},
 				{
-					"questionId": 2,
+					"questionId": 223,
 					"text": "Which product variant of product y has the beste features?",
 					"category": "multiChoice",
 					"choices": [{
@@ -331,7 +331,7 @@
 					"explanation": "Variant c has in total z features more then the other variants"
 				},
 				{
-					"questionId": 3,
+					"questionId": 334,
 					"text": "What is the minimum age to apply for porduct y?",
 					"category": "numerical",
 					"choices": null,
